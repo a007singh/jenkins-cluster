@@ -1,4 +1,5 @@
-FROM openshift/jenkins-slave-base-centos7
+#FROM openshift/jenkins-slave-base-centos7
+FROM centos:7
 ENV JENKINS_SWARM_VERSION 2.0
 ENV JNLP_SLAVE_VERSION 2.52
 ENV HOME /opt/jenkins-slave
